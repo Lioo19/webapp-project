@@ -1,0 +1,101 @@
+.weather {
+    background-image: linear-gradient(to bottom right,
+        $main-background,
+        $third-background,
+        $third-background,
+        $secondary-background);
+    border-radius: 0 0 7% 7%;
+    color: $main-background;
+}
+
+h3.today {
+    padding-top: 10%;
+    margin-bottom: 2%;
+}
+
+.weather-today {
+    text-align: center;
+
+    p {
+        font-size: 24px;
+        margin-bottom: 6%;
+    }
+
+    .wi {
+        font-size: 48px;
+    }
+}
+
+.weather-week {
+    display: flex;
+    flex-direction: row;
+    flew-wrap: nowrap;
+    justify-content: space-around;
+    padding-bottom: 4%;
+}
+
+
+.each-weather {
+    text-align: center;
+
+    p {
+        font-size: 12px;
+    }
+
+    .wi {
+        font-size: 28px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+}
+
+.divfront {
+    padding: 3% 7% 7% 8%;
+    display: block;
+    overflow: auto;
+}
+
+.frontpage-buttons {
+    width: 120px;
+    border: 2px solid $other-dark;
+    // background-color: $other-dark;
+    border-radius: 7%;
+    display: inline-block;
+    padding: 0 2% 0 2%;
+    text-align: center;
+    margin: 3%;
+}
+
+.frontpage-buttons-last {
+    width: 200px;
+    // border: 2px solid $other-dark;
+    // background-color: $other-dark;
+    font-weight: 600;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    margin: 3% 5% 15% 15%;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+p.frontpage {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 20px;
+    color: $other-dark;
+}
+
+h3.frontpage {
+    margin-bottom: 0;
+    margin-top: 1rem;
+    text-align: center;
+    color: $dark;
+}
+
+.detail-front {
+    margin-bottom: 12%;
+    display: block;
+}

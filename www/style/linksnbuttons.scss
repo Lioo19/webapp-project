@@ -1,0 +1,92 @@
+
+.goBack {
+    background-color: $other-dark;
+    color: $button-text-color;
+    padding: 8px;
+    font-family: $font-header;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.button {
+    background-color: $other-dark;
+    color: $button-text-color;
+    padding: 8px;
+    margin: 10px;
+    font-family: $font-header;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.buttonwithspace {
+    background-color: $other-dark;
+    color: $button-text-color;
+    padding: 8px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: $font-header;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.tinybutton {
+    color: $other-dark;
+    font-weight: bold;
+    padding: 2px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: $font-header;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.buttonach {
+    display: block;
+    text-align: center;
+    color: $button-text-color;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: $font-header;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.done {
+    padding-left: 10%;
+    background-color: white;
+    color: $dark;
+    border: 1px solid $other-dark;
+}
+
+.not {
+    background-color: $dark;
+}
+
+.buttonforloggedout {
+    display: block;
+    text-align: center;
+    background-color: $dark;
+    color: $button-text-color;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: $font-header;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.detailbutton {
+    display: block;
+    text-align: center;
+    background-color: $other-dark;
+    color: $button-text-color;
+    padding: 10px;
+    margin-bottom: 80px;
+    font-family: $font-header;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.button-icon {
+    font-size: 1.4rem !important;
+    float: right;
+}

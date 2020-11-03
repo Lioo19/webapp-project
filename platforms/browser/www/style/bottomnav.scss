@@ -1,0 +1,42 @@
+
+.bottom-nav {
+    background-color: $dark;
+    color: $button-text-color;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-top: 2%;
+    border-top: 2px solid $accent;
+    /*
+    could use lighten also, but ugly shade
+    */
+}
+
+.bottom-nav a {
+    color: $button-text-color;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bottom-nav a.active {
+    color: $accent;
+}
+
+.bottom-nav i {
+    display: block;
+    margin-bottom: 3%;
+}
+
+.bottom-nav span {
+    font-size: 0.6rem;
+    font-family: $font-header;
+}
+
+.material-icons {
+    font-size: 28px;
+}

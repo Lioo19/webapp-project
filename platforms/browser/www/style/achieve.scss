@@ -1,0 +1,31 @@
+h3.ach {
+    display: inline;
+}
+
+.ach2 {
+    color: $main-background;
+}
+
+.achieve1 {
+    background-image: linear-gradient(to bottom right,
+        $main-background,
+        $third-background,
+        $secondary-background,
+        $other-dark);
+    border-radius: 0 0 7% 7%;
+    text-align: center;
+    padding: 10%;
+}
+
+.ach {
+    font-size: 4rem !important;
+    color: $main-background;
+}
+
+.achieve2 {
+    margin-bottom: 4rem;
+
+    h3 {
+        margin: 5%;
+    }
+}
